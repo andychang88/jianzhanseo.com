@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Amazon订单同步</title>
+<script language="javascript" type="text/javascript" src="../../My97DatePicker/WdatePicker.js"></script>
+</head>
+
+<body>
+<table width="90%" border="0" align="center" cellpadding="0" cellspacing="10">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+      <form method="get" action="http://gl-bigstore.com/MarketplaceWebServiceOrders/Samples/ListOrdersSample_gl.php" target="_blank">
+        <fieldset>
+        <legend>订单同步</legend>
+        <p>订单付款时间：
+        开始时间<input type="text" name="date1"  onclick="WdatePicker({dateFmt:'yyyy-MM-dd H:mm:ss'})" > &nbsp;&nbsp;&nbsp;
+        结束时间<input type="text" name="date2"  onclick="WdatePicker({dateFmt:'yyyy-MM-dd H:mm:ss'})" > &nbsp;&nbsp;&nbsp;
+        订单所在amazon账号<select id="account" name="account">
+
+                    <option value="">请选择...</option>
+                      <option value="yingraoeu168@gmail.com-fr">yingraoeu168@gmail.com-fr</option>
+
+                    
+                      <option value="yingraoeu168@gmail.com-de">yingraoeu168@gmail.com-de</option>
+
+                    
+                      <option value="yingraoeu168@gmail.com">yingraoeu168@gmail.com</option>
+
+                    
+                      <option value="yansuxianzl888@gmail.com">yansuxianzl888@gmail.com</option>
+
+                    
+                      <option value="wangxiaofeng20013@gmail.com">wangxiaofeng20013@gmail.com</option>
+
+                    
+                      <option value="jayann168@gmail.com">jayann168@gmail.com</option>
+
+                    
+                      <option value="eyiou168@gmail.com">eyiou168@gmail.com</option>
+
+                    
+                      <option value="everglcorpsales002@gmail.com">everglcorpsales002@gmail.com</option>
+<option value="wangxiaofeng20013@gmail.com-de">wangxiaofeng20013@gmail.com-de</option>
+                                        </select>
+                                        
+                                        <input type="submit" value="开始同步"  name="submit">
+        </p>
+        </fieldset>
+      </form>
+      
+    </td>
+  </tr>
+
+    <tr>
+    <td><br><br><br><br>
+      <form method="get" action="http://gl-bigstore.com/MarketplaceWebServiceOrders/Samples/ListOrdersSample_detail.php?date1=2013-09-17%2000:00:01&date2=2013-09-17%2003:50:59" target="_blank">
+        <fieldset>
+        <legend>同步订单内容</legend>
+          <p>
+            
+            订单所在amazon账号<select id="account" name="account">
+
+                    <option value="">请选择...</option>
+                      <option value="yingraoeu168@gmail.com-fr">yingraoeu168@gmail.com-fr</option>
+
+                    
+                      <option value="yingraoeu168@gmail.com-de">yingraoeu168@gmail.com-de</option>
+
+                    
+                      <option value="yingraoeu168@gmail.com">yingraoeu168@gmail.com</option>
+
+                    
+                      <option value="yansuxianzl888@gmail.com">yansuxianzl888@gmail.com</option>
+
+                    
+                      <option value="wangxiaofeng20013@gmail.com">wangxiaofeng20013@gmail.com</option>
+
+                    
+                      <option value="jayann168@gmail.com">jayann168@gmail.com</option>
+
+                    
+                      <option value="eyiou168@gmail.com">eyiou168@gmail.com</option>
+
+                    
+                      <option value="everglcorpsales002@gmail.com">everglcorpsales002@gmail.com</option>
+<option value="wangxiaofeng20013@gmail.com-de">wangxiaofeng20013@gmail.com-de</option>
+                                        </select>
+                                        &nbsp;&nbsp;&nbsp;
+                                        
+            <input type="submit" value="开始同步"  name="submit">
+            
+          </p>
+  
+          </fieldset>
+      </form>
+      
+    </td>
+  </tr>
+    
+    
+    
+        <tr>
+    <td><br><br><br><br>
+      <form method="get" action="http://gl-bigstore.com/MarketplaceWebServiceOrders/Samples/GetOrderSample_gl.php?date1=2013-09-17%2000:00:01&date2=2013-09-17%2003:50:59" target="_blank">
+        <fieldset>
+        <legend>同步单个订单</legend>
+          <p>请输入amazon订单号：<input type="text" name="id"  > &nbsp;&nbsp;&nbsp;
+          
+          订单所在amazon账号<select id="account" name="account">
+
+                    <option value="">请选择...</option>
+                      <option value="yingraoeu168@gmail.com-fr">yingraoeu168@gmail.com-fr</option>
+
+                    
+                      <option value="yingraoeu168@gmail.com-de">yingraoeu168@gmail.com-de</option>
+
+                    
+                      <option value="yingraoeu168@gmail.com">yingraoeu168@gmail.com</option>
+
+                    
+                      <option value="yansuxianzl888@gmail.com">yansuxianzl888@gmail.com</option>
+
+                    
+                      <option value="wangxiaofeng20013@gmail.com">wangxiaofeng20013@gmail.com</option>
+
+                    
+                      <option value="jayann168@gmail.com">jayann168@gmail.com</option>
+
+                    
+                      <option value="eyiou168@gmail.com">eyiou168@gmail.com</option>
+
+                    
+                      <option value="everglcorpsales002@gmail.com">everglcorpsales002@gmail.com</option>
+<option value="wangxiaofeng20013@gmail.com-de">wangxiaofeng20013@gmail.com-de</option>
+                                        </select>
+                                        &nbsp;&nbsp;&nbsp;
+            <input type="submit" value="开始同步"  name="submit">
+            
+          </p>
+  
+          </fieldset>
+      </form>
+      
+    </td>
+  </tr>
+    
+    
+    
+    
+    
+    
+    
+        <tr>
+    <td><br><br><br><br>
+      <form method="post" action="http://gl-bigstore.com/MarketplaceWebServiceOrders/Samples/GetOrderSample_gl.php?date1=2013-09-17%2000:00:01&date2=2013-09-17%2003:50:59" target="_blank">
+        <fieldset>
+        <legend>同步多单个订单</legend>
+          <p>请输入amazon订单：<textarea value="" name="orders_from" style="width:800px;height:150px;" ></textarea>
+          
+          
+          &nbsp;&nbsp;&nbsp;<br>
+          
+          订单所在amazon账号<select id="account" name="account">
+
+                    <option value="">请选择...</option>
+                      <option value="yingraoeu168@gmail.com-fr">yingraoeu168@gmail.com-fr</option>
+
+                    
+                      <option value="yingraoeu168@gmail.com-de">yingraoeu168@gmail.com-de</option>
+
+                    
+                      <option value="yingraoeu168@gmail.com">yingraoeu168@gmail.com</option>
+
+                    
+                      <option value="yansuxianzl888@gmail.com">yansuxianzl888@gmail.com</option>
+
+                    
+                      <option value="wangxiaofeng20013@gmail.com">wangxiaofeng20013@gmail.com</option>
+
+                    
+                      <option value="jayann168@gmail.com">jayann168@gmail.com</option>
+
+                    
+                      <option value="eyiou168@gmail.com">eyiou168@gmail.com</option>
+
+                    
+                      <option value="everglcorpsales002@gmail.com">everglcorpsales002@gmail.com</option>
+                      <option value="wangxiaofeng20013@gmail.com-de">wangxiaofeng20013@gmail.com-de</option>
+
+                                        </select>
+                                        &nbsp;&nbsp;&nbsp;<br>
+            <input type="submit" value="开始同步"  name="submit">
+            
+          </p>
+  
+          </fieldset>
+      </form>
+      
+    </td>
+  </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>
+</body>
+</html>

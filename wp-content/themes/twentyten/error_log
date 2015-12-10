@@ -1,0 +1,1 @@
+[31-May-2013 14:38:16] PHP Fatal error:  Call to undefined function  get_header() in /home3/changah/public_html/wordpress/wp-content/themes/twentyten/404.php on line 10

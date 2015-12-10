@@ -1,0 +1,7 @@
+[14-Apr-2012 13:57:18] PHP Fatal error:  Call to undefined function  get_taxonomies() in /home/changah/public_html/wordpress/wp-content/plugins/rich-text-tags/rich-text-tags.php on line 43
+[14-Apr-2012 13:57:22] PHP Fatal error:  Call to undefined function  get_taxonomies() in /home/changah/public_html/wordpress/wp-content/plugins/rich-text-tags/rich-text-tags.php on line 43
+[14-Apr-2012 13:57:24] PHP Fatal error:  Call to undefined function  get_taxonomies() in /home/changah/public_html/wordpress/wp-content/plugins/rich-text-tags/rich-text-tags.php on line 43
+[14-Apr-2012 13:57:37] PHP Fatal error:  Call to undefined function  get_taxonomies() in /home/changah/public_html/wordpress/wp-content/plugins/rich-text-tags/rich-text-tags.php on line 43
+[05-Aug-2012 04:00:45] PHP Fatal error:  Call to undefined function  self_admin_url() in /home/changah/public_html/wordpress/wp-admin/includes/update-core.php on line 698
+[29-May-2014 05:05:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 525
+[29-May-2014 05:06:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 525

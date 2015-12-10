@@ -1,0 +1,98 @@
+CREATE TABLE `aa` (
+`a` VARCHAR( 2 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+PRIMARY KEY ( `a` ) 
+) TYPE = innodb;
+
+
+ALTER TABLE `contacts` CHANGE `name` `name` VARCHAR( 128 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
+
+
+ALTER TABLE contacts CHANGE parent_id parent_id int( 5 ) default 0 AFTER id
+ALTER TABLE contacts MODIFY parent_id int( 5 ) AFTER id
+ALTER TABLE contacts MODIFY parent_id int( 3 ) AFTER name
+
+ALTER TABLE contacts CHANGE parent_id p_id int( 3 ) AFTER name   //可以运行
+ALTER TABLE contacts modify parent_id p_id int( 3 ) AFTER name   //不可以运行 modify后面只能跟一个字段名：如下：
+ALTER TABLE users MODIFY group_id int( 2 ) default 0
+
+
+CREATE TABLE `aa` (
+`idf` VARCHAR( 3 ) NOT NULL ,
+PRIMARY KEY ( `idf` ) 
+) TYPE = innodb;
+
+create table `pc_list`(
+`id` varchar(15) not null
+)type=innodb;
+
+注意：如果加引号的话，小心引号啊啊。
+
+CREATE TABLE `users` (
+`user_id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`user_name` VARCHAR( 40 ) NOT NULL ,
+`user_password` VARCHAR( 40 ) NOT NULL ,
+`email` VARCHAR( 40 ) NULL ,
+`active` TINYINT( 1 ) NOT NULL DEFAULT '0'
+) TYPE = MYISAM ;
+
+这个注意primary key的位置
+
+ALTER TABLE `users` ADD `group_id` TINYINT( 3 ) NOT NULL DEFAULT '0' AFTER `user_id` ;
+
+
+修改表整理类型为 utf8_general_ci
+ALTER TABLE aa CHARACTER SET utf8  或者为
+ALTER TABLE cate default CHARSET = utf8
+
+
+修改列的类型为utf8:
+ALTER TABLE `users` CHANGE `name` `name` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL 
+
+上面语句可以，注意default null 只能放在最后，不能放在varchar(255)的后面
+
+修改列名：
+alter table aa change namef name varchar(20)
+
+修改列的位置：（修改后列的类型是必须得)
+ALTER TABLE aa CHANGE name name varchar( 20 ) AFTER id
+
+添加一个unique列：
+ALTER TABLE `aa` ADD UNIQUE (
+`name` 
+)
+
+修改一个unique列：
+ALTER TABLE `aa` DROP INDEX `name` ,
+ADD UNIQUE `namedd` ( `name` ) 
+
+
+
+添加新列（不需要关键字column）
+alter table aa add class varchar(10) default 0
+
+
+删除主键索引：
+ALTER TABLE `aa` DROP PRIMARY KEY 
+
+添加主键索引：
+ALTER TABLE `aa` ADD PRIMARY KEY ( idf ) 
+
+重命名表
+ALTER TABLE kissjava_admin RENAME TO admin;
+
+///////////////////////////////////////////////////////////////////////////////
+添加外键：
+ALTER TABLE `lr_users`
+  ADD CONSTRAINT `lr_users_ibfk_1` FOREIGN KEY (`FK_group_id`) REFERENCES `lr_user_groups` (`group_id`);
+
+
+或者下面样式
+alter table cc 
+add constraint c_a foreign key (pid) references aa (id)
+
+注意：后面的括号是必须得，2个键类型必须相同
+///////////////////////////////////////////////////////////////////////////////
+请注意如果用Windows中的编辑器（使用\r\n做为行的结束符）创建文件，应使用：
+
+mysql> LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet
+    -> LINES TERMINATED BY '\r\n';

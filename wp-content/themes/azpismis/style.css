@@ -1,0 +1,742 @@
+/*
+Theme Name:Azpismis
+Theme URI:http://www.hakkiceylan.com/azpismis_v2_wordpress_turkce_tema/
+Description: A underdone theme.
+Version:2.2
+Author:Hakki Ceylan
+Author URI:http://www.hakkiceylan.com
+Tags:colourful,three columns,widgets,fixed width,right sidebar,modern,azpismis
+*/
+
+
+/* Temel */
+body {
+	background: #FFFFFF url(images/bg.jpg) repeat-x top left;
+	color: #666666;
+	font-size: 14px;
+	font-family: Trebuchet MS, Arial, Georgia, Sans-Serif;
+	margin: 0 auto 0;
+	padding: 0;
+}
+
+#sayfa {
+	width: 960px;
+	margin: 0 auto 0;
+	padding: 0;
+}
+
+#sayfa_sol {
+	float: left;
+	width: 470px;
+	margin: 0 10px 0 0;
+	padding: 15px 0 20px 0;	
+}
+	
+#sagtaraf {
+	float: right;
+	width: 470px;
+	margin: 0 0 0 0;
+	padding: 0;	
+}
+
+a, a:visited{
+	color: #FF9900;
+	text-decoration: none;
+	}
+	
+a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+#navbarright .blogbaslik, #navbarright .blogbaslik a{
+	margin:12px 0 0 0;
+	padding: 8px 0 0 6px;
+	font-family: Georgia, Times, "Trebuchet MS", Sans-Serif;	
+	color: #FFCC00;
+	font-size: 48px;
+	text-decoration: none;
+}
+
+#navbarright .blogbaslik a:hover{
+	color: #FF9900;
+    text-decoration: none;
+}
+
+#navbarright .blogaciklama, #navbarright .blogaciklama a, #navbarright .blogaciklama a:hover{
+   margin:0;
+   padding: 0 0 0 6px;
+	color: #DDDDDD;
+	font-size: 20px;	
+	text-decoration: none;
+}
+
+
+/* Navigasyon */
+
+#navbar {
+	background: #FFFFFF url(images/header.jpg);	
+	width: 960px;
+	height: 160px;
+	margin: 0 auto 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 16px;
+}
+	
+#navbar img a{
+	margin: 0;
+	border: none;
+}
+	
+#navbarright {
+	width: 960px;
+	float: right;
+	text-align: left;
+	margin: 0;
+	padding-top: 10px;
+}
+	
+#navbarright li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+		
+#navbarright ul {
+	margin: 0;
+	padding: 0;
+}
+		
+#navbarright a {
+	color: #F2FD7A;
+	font-weight: normal;
+	margin: 0;
+	padding: 6px 10px 6px 10px;
+}
+		
+#navbarright a:hover {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+	
+/* Genel */
+
+#sayfa p{
+	padding: 0 0 10px 0;
+	margin: 0;
+	line-height: 20px;
+}
+	
+#sayfa h1, #sayfa h2 {
+	color: #94D730;	
+	font-family: Georgia, Times, Sans-Serif;
+	font-weight: normal;
+	padding: 5px 0 0 0;
+	margin: 0;
+}
+
+#sayfa h2 {
+	font-size: 20px;	
+}
+
+#sayfa h1, #sagtaraf h2{
+	font-size: 24px;
+	letter-spacing: -1px;		
+}
+	
+#sayfa h1 a, #sayfa h2 a  {
+	color: #FF9900;
+	text-decoration: none;
+}
+
+#sayfa h1 a:hover, #sayfa h2 a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+#sayfa p img{
+	margin: 2px 7px 2px 0;
+	padding: 7px;
+	border: 1px solid #EEEEEE;
+	background: #FFFFFF;
+	text-decoration:none;
+}
+
+#sayfa ul, #sayfa ol  {	
+	margin: 5px 0 0 5px;
+	padding: 0;
+}
+
+#sayfa ul li, #sayfa ol li  {
+	margin-left: 20px;
+	padding: 1px 0 2px 0;
+}
+
+#sagtaraf ul {
+	list-style: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+#sagtaraf ul li {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 2px 0 2px 0;
+	border-top: 1px solid #EEEEEE;
+}
+
+#sagtaraf ul li a {
+	color: #828FB1;
+	text-decoration: none;
+}
+
+#sagtaraf ul li a:hover {
+	background: #FAFAFA;
+	color: #000000;
+}
+	
+.sayfalist1 {
+	float: left;
+	width: 225px;
+	margin: 0 10px 0 0;
+	padding: 15px 0 0 0;	
+	border-bottom: 1px solid #EEEEEE;
+}
+	
+.sayfalist2 {
+	float: right;
+	width: 225px;
+	margin: 0 0 20px 10px;
+	padding: 15px 0 0 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+	
+.sayfalist1 img, .sayfalist1 img a, .sayfalist2 img, .sayfalist2 img a{
+	margin: 3px 6px 3px 0;
+	padding: 6px;
+	border: 1px solid #EEEEEE;
+	background: #FFFFFF;
+	text-decoration:none;
+}
+
+
+#index_ana {
+	width: 960px;
+	margin: 0 auto 0;
+	padding: 0;
+}
+
+#index_sol {
+	float: left;
+	width: 470px;
+	margin: 0 10px 0 0;
+	padding: 20px 0 20px 0;
+	overflow:hidden;
+}
+
+#index_sag {
+	float: right;
+	width: 470px;
+	margin: 0 0 0 0;
+	padding: 20px 0 20px 0;
+	overflow:hidden;
+}
+	
+#index_ana p{
+	padding: 0 0 15px 0;
+	margin: 0;
+	line-height: 20px;
+}
+	
+#index_ana h1 {
+	color: #FF9900;
+	font-size: 24px;
+	font-family: Arial, verdana, Helvetica, Sans-Serif;
+	font-weight: normal;
+	letter-spacing: -1px;
+	padding: 8px 0 0 0;
+	margin: 0;	
+}
+	
+#index_ana h1 a  {
+	color: #FF9900;
+	text-decoration: none;
+}
+
+#index_ana h1 a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+	
+#index_ana p img{
+	margin: 2px 7px 2px 0;
+	padding: 7px;
+	border: 1px solid #EEEEEE;
+	background: #FFFFFF;
+	text-decoration:none;
+}
+	
+#index_sag ul {
+	list-style: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+#index_sag ul li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+	
+#index_sag ul li a {
+	display: block;
+	color: #666666;
+	text-decoration: none;
+	margin: 0;
+	padding: 5px 0 5px 0;
+	border-top: 1px solid #EEEEEE;
+}
+
+#index_sag ul li a:hover {
+	background: #EEEEEE;
+	color: #0066cc;
+}
+	
+/* Footer */
+
+#footerbg {
+  clear:both;
+  background: #828FB1 url(images/fbg.jpg) repeat-x left top;
+  border-bottom:1px solid #FF9900;
+}
+	
+#footer {
+	width: 960px;
+	height:170px;	
+	color: #FFFFFF;
+	margin: 0 auto 0;
+	text-align: left;		
+}
+
+#footer p {
+	color: #FFFFFF;
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+	line-height: 14px;
+}
+	
+#footer h2, h4 {
+	color: #94D730;
+	font-size: 24px;
+	font-family: Georgia, Times, Sans-Serif;
+	font-weight: normal;	
+	padding: 0 0 2px 0;
+	margin: 20px 0 0 0;
+}
+	
+#footer h3 {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Arial, verdana, Helvetica, Sans-Serif;
+	font-weight: bold;
+	border-bottom: 1px solid #666666;
+	padding: 0 0 2px 0;
+	margin: 15px 0 3px 0;
+	text-transform: uppercase;
+}
+
+#footer a {
+	color: #94D730;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+	
+#footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer ul li {	
+	list-style: none;	
+	margin: 0;
+	padding: 1px 0 1px 0;
+	border-bottom: 1px solid #9fa6b7;
+}
+	
+#footer ul li a {
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+
+#footer ul li a:hover {
+	color: #000000;
+}
+
+#footerleft {
+	float: left;
+	width: 225px;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+	
+#footermiddle {
+	float: left;
+	width: 470px;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+#footermiddle1 {
+	float: left;
+	width: 225px;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+	
+#footermiddle2 {
+	float: left;
+	width: 225px;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+	
+#footerright {
+	float: right;
+	width: 225px;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+/* Arama */
+
+#searchform, #loginform {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+	
+#s, #log, #pwd {
+	background: #EEEEEE;
+	color: #333333;
+	font-size: 14px;
+	font-family: Arial, verdana, Helvetica, Sans-Serif;
+	padding: 2px;
+	margin: 2px 0 2px 0;
+	border: 1px solid #94D730;
+}
+
+#giris {
+	background: #EEEEEE;
+	color: #333333;
+	font-size: 12px;
+	font-family: Arial, verdana, Helvetica, Sans-Serif;
+	padding: 2px 4px 2px 4px;
+	margin: 2px 0 2px 0;
+	border: 1px solid #94D730;
+}
+
+#rememberme  {
+	background: #EEEEEE;
+	font-family: Arial, verdana, Helvetica, Sans-Serif;
+	padding: 0;
+	margin: 4px 0 0 0;
+	border: 1px solid #94D730;
+}
+
+#sbutt {
+	background: #94D730;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: Arial, verdana, Helvetica, Sans-Serif;
+	padding: 5px 25px 5px 25px;
+	margin: 0;
+	border: 0 solid #666666;
+}
+
+#s1, #s2, #s3, #s4 {
+	background: #EEEEEE;
+	color: #666666;
+	font-size: 14px;
+	font-family: Arial, verdana, Helvetica, Sans-Serif;
+	padding: 4px;
+	margin: 0;	
+	border: 1px solid #DDDDDD;
+}
+
+/* Yorumlar */
+
+#commentblock {
+	width: 400px;	
+	color: #333333;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	margin: 0;	
+	border-left: 1px solid #DDDDDD;
+	font-size: 14px;
+	line-height: 8px;
+}
+	
+#commentblock h2 {
+	color: #FF9900;
+	font-size: 24px;
+	font-family: Arial, verdana, Helvetica, Sans-Serif;
+	font-weight: normal;
+	letter-spacing: -1px;
+	padding: 20px 0 10px 10px;
+	margin: 0;
+}
+
+ol#commentlist {
+	padding: 5px;
+	margin: 0;
+	margin-top:30px;
+	list-style-type: none;	
+}
+	
+.commentdate {
+	font-size: 12px;
+	padding-left: 0;
+}
+	
+#commentlist li  p{
+	margin-bottom: 8px;
+	line-height: 20px;
+	padding: 0;
+}
+
+.commentname {
+	color: #333333;
+	margin: 0;
+	padding: 5px 5px 5px 0;
+	line-height:16px;
+}
+
+.commentinfo{
+	clear: both;
+}
+
+.commenttext p, .commenttext-admin p {
+   line-height: 14px;
+}
+
+.commenttext, .commenttext-admin {
+ 	clear: both;
+	margin: 0 0 10px 0;
+	color: #FFFFFF;
+	padding: 20px 10px 5px 10px;
+	width: 360px;
+}
+.commenttext {
+	background: #828FB1 url(images/comment.jpg) no-repeat top;	
+}
+
+.commenttext-admin {
+	background: #94D730 url(images/commenta.jpg) no-repeat top;	
+}
+
+.commenttext a, .commenttext-admin a {
+   text-decoration:underline;
+   color: #FFFFFF;
+}
+
+.commenttext a:hover, .commenttext-admin a:hover {
+   text-decoration:none;
+   color: #FFFFFF;   
+}
+
+#index_ana .commenttext img {
+   border: none;
+   padding: 0;
+	margin: 0;
+	background: #828FB1;
+}
+
+#index_ana .commenttext-admin img{
+   border: none;
+   padding: 0;
+	margin: 0;
+	background: #94D730;
+}
+
+#commentsformheader{
+	padding-left: 0;
+}
+
+#commentsform{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#commentsform form{
+	text-align: left;
+	margin: 0;
+	padding: 10px 20px 10px 10px;
+}
+
+#commentsform p{
+	margin: 0;
+}
+
+#commentsform form textarea{
+	width: 99%;
+}
+	
+p.comments_link  img{
+	margin: 0;
+	padding: 0;
+	border-style: none;	
+}
+
+
+/* Ekstralar */
+
+.sayfalar {
+	font-size: 24px;
+	color: #FF9900;
+}
+
+.sayfalar a:hover {
+	color: #000000;		
+}
+
+.sayfalar a {
+	color: #828FB1;
+}
+
+.yazilar {
+	font-size: 18px;
+	color: #CCCCCC;	
+}
+
+.yazilar a:hover {
+	color: #828FB1;		
+}
+
+.yazilar a {
+	color: #CCCCCC;
+}
+
+blockquote{
+	margin: 0 0 0 5px;
+	padding: 0 20px 0 5px;
+	font-style: italic;
+	color: #888888;
+	border-left: 5px solid #EFEFEF;
+}
+	
+#sayfa blockquote p{
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+strong {
+	font-weight:normal;
+	color: #000000;
+}
+
+.etiketler ul a{
+	color: #828FB1;
+}
+
+.etiketler ul a:hover{
+	color: #FF6600;
+}
+
+.ozetbilgi p{
+	margin:0;
+	padding:0 0 3px 0;
+	color: #777777;
+	line-height:13px;
+}
+
+img#wpstats {width:0px;height:0px;overflow:hidden;}
+
+/*for new WP version*/
+
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.alignleft {
+   float: left;
+}
+
+.alignright {
+   float: right;
+}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}
+
+/* Resim */
+
+img.centered{
+	text-align: center;
+}
+
+img.alignright,.alignright{
+	text-align: right;
+}
+
+img.alignright{	
+	float:right;
+}
+
+img.alignleft,.alignleft{
+	text-align: left;
+}
+img.alignleft{
+    float:left;
+}
+.meta {
+	color:#AAA;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Arial, Georgia, Sans-Serif;
+	line-height:13px;
+	padding-bottom:8px;	
+	border-bottom:1px solid #EEE;
+}
+.meta a{
+	color:#AAA;
+}
+.gra{
+float:left;
+padding:0 8px 4px 0;
+}

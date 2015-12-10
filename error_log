@@ -1,0 +1,26 @@
+[24-Apr-2012 16:04:02] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/changah/public_html/wordpress/wp-includes/functions.php on line 1153
+[25-Apr-2012 15:18:19] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/changah/public_html/wordpress/wp-includes/functions.php on line 1153
+[25-Apr-2012 15:41:48] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/changah/public_html/wordpress/wp-includes/functions.php on line 1153
+[25-Apr-2012 15:44:15] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/changah/public_html/wordpress/wp-includes/functions.php on line 1153
+[25-Apr-2012 15:49:48] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/changah/public_html/wordpress/wp-includes/functions.php on line 1153
+[03-May-2012 15:55:04] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/changah/public_html/wordpress/wp-includes/functions.php on line 1153
+[03-May-2012 15:55:04] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/changah/public_html/wordpress/wp-includes/functions.php on line 1153
+[03-May-2012 15:55:04] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/changah/public_html/wordpress/wp-includes/functions.php on line 1153
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 03:53:44 UTC] PHP Warning:  implode(): Invalid arguments passed in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 514
+[29-May-2014 05:05:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 525
+[29-May-2014 05:05:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/changah/public_html/wordpress/wp-content/themes/dynablue/functions.php on line 525
+[19-Jan-2015 12:22:18 UTC] WordPress数据库查询DELETE FROM wp_options WHERE option_name = '_transient_doing_cron'时发生Deadlock found when trying to get lock; try restarting transaction错误，这是由require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, wp_cron, spawn_cron, get_transient, delete_option查询的。

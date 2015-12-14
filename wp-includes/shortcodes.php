@@ -197,14 +197,14 @@ function do_shortcode( $content, $ignore_html = false ) {
 	$tagnames = array_keys($shortcode_tags);
 	$tagregexp = join( '|', array_map('preg_quote', $tagnames) );
 	$pattern = "/\\[($tagregexp)/s";
-
+	
 	if ( 1 !== preg_match( $pattern, $content ) ) {
 		// Avoids parsing HTML when there are no shortcodes or embeds anyway.
 		return $content;
 	}
 
 	$content = do_shortcodes_in_html_tags( $content, $ignore_html );
-
+	
 	$pattern = get_shortcode_regex();
 	$content = preg_replace_callback( "/$pattern/s", 'do_shortcode_tag', $content );
 	
@@ -286,7 +286,7 @@ function get_shortcode_regex() {
  */
 function do_shortcode_tag( $m ) {
 	global $shortcode_tags;
-
+	
 	// allow [[foo]] syntax for escaping a tag
 	if ( $m[1] == '[' && $m[6] == ']' ) {
 		return substr($m[0], 1, -1);

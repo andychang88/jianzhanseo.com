@@ -449,25 +449,8 @@ echo $html;
 
 
 
-function isRobot() {
-	$kw_spiders = 'Bot|Crawl|Spider|slurp|sohu-search|lycos|robozilla';
-	$kw_browsers = 'MSIE|Netscape|Opera|Konqueror|Mozilla';
-	if( strpos($_SERVER['HTTP_USER_AGENT'], 'http://') === false && preg_match("/($kw_browsers)/i", $_SERVER['HTTP_USER_AGENT'])) {
-		return FALSE;
-	} elseif(preg_match("/($kw_spiders)/i", $_SERVER['HTTP_USER_AGENT'])) {
-		return true;
-	} else {
-		return FALSE;
-	}
-
-}
 
 function getPostViews($postID){
-	
-	if(isRobot()){
-		return 0;
-	}
-	
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);
     if($count==''){
@@ -477,7 +460,6 @@ function getPostViews($postID){
     }
     return $count.'';
 }
-
 function setPostViews($postID) {
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);

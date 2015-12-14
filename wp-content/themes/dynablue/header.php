@@ -47,7 +47,8 @@
 <div id="page">
 
 
-<?php echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
+<?php //echo  do_shortcode('[wonderplugin_carousel id="1"]'); ?>
+
 <?php
 if(0){
 ?>

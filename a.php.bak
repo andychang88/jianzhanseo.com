@@ -1,0 +1,15 @@
+<?php
+
+function theme_twitter_show()
+{
+	$id = 'aa';
+	if(!empty($id))
+	{
+	?>
+	8889
+	<?php
+	}
+}
+
+
+theme_twitter_show();

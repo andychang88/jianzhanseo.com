@@ -50,7 +50,7 @@
 <?php //echo  do_shortcode('[wonderplugin_carousel id="1"]'); ?>
 
 <?php
-if(0){
+if(1){
 ?>
 <div id="header">
 	<div id="logo"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a><span class="description"><?php bloginfo('description'); ?></span></div>

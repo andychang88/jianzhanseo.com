@@ -22,7 +22,7 @@
                 </div>
 
 				<div class="entry">
-				<?php my_ad(); ?>
+				<?php //my_ad(); ?>
 					<?php the_content('',FALSE,''); ?>
 				</div>
 			</div>

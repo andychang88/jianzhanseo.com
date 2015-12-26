@@ -37,7 +37,10 @@ body{
 	padding:0px;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:11px;
-	background:#554f4f;
+	/*background:#554f4f;*/
+	background:url(images/body-bg-21.jpg) no-repeat;
+	background-position:center top !important;
+	background-size:cover;
 	color:#000000;
 }
 #page{
@@ -54,7 +57,7 @@ body{
 }
 
 #header #logo{
-	color:#000;
+	color:#fff;
 	font-size:55px;
 	font-weight:normal;
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -64,7 +67,7 @@ body{
 	float:left;
 }
 #header #logo a{
-	color:#000;
+	color:#fff;
 }
 #header #logo a:hover{
 	text-decoration:none;

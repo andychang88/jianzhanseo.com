@@ -1601,7 +1601,9 @@ class wpdb {
 		 * @param string $query Database query.
 		 */
 		$query = apply_filters( 'query', $query );
-
+		
+		
+		
 		$this->flush();
 
 		// Log how the function was called
@@ -1643,7 +1645,7 @@ class wpdb {
 				return false;
 			}
 		}
-
+		
 		// If there is an error then take note of it..
 		if ( $this->use_mysqli ) {
 			$this->last_error = mysqli_error( $this->dbh );

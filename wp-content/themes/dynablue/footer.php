@@ -34,7 +34,7 @@
 #particles{
   width: 100%;
   height: 100%;
-  background-image: url('');
+  background-image: none;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;

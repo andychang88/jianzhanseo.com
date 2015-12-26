@@ -462,33 +462,54 @@ function isRobot() {
 
 }
 
-function getPostViews($postID){
+function getPostViewsBackUp($postID){
 	
-	if(isRobot()){
-		return 0;
+	$doUpdate = true;
+	if(isRobot() || is_user_logged_in() == true){
+		$doUpdate = false;
 	}
 	
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);
     if($count==''){
-        delete_post_meta($postID, $count_key);
-        add_post_meta($postID, $count_key, '0');
-        return "0";
+    	
+    	if($doUpdate == false){
+    		
+    	} else {
+    		delete_post_meta($postID, $count_key);
+    		add_post_meta($postID, $count_key, '0');
+    		return "0";
+    	}
+    	
+        
     }
     return $count.'';
 }
 
-function setPostViews($postID) {
+function getPostViews($postID) {
+	
+	$doUpdate = true;
+	if(isRobot() || (is_user_logged_in() == true)){
+		$doUpdate = false;
+	}
+	
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);
+    
+    if(!$doUpdate){
+    	return (int)$count;
+    }
+
     if($count==''){
         $count = 1;
         delete_post_meta($postID, $count_key);
         add_post_meta($postID, $count_key, $count);
     }else{
-        $count++;
+        $count = $count + 1;
         update_post_meta($postID, $count_key, $count);
     }
+    
+    return $count.'';
 }
 
 function custom_excerpt_length( $length ) {

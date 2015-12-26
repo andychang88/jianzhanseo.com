@@ -1,0 +1,342 @@
+
+================log bigin at 2015-12-26 04:20:49
+UPDATE `wp_postmeta` SET `meta_value` = '95' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:20:49
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 95)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 95, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:20:49
+UPDATE `wp_postmeta` SET `meta_value` = '96' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:20:49
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 96)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 96, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:23:31
+UPDATE `wp_postmeta` SET `meta_value` = '97' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:23:31
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 97)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 97, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:23:31
+UPDATE `wp_postmeta` SET `meta_value` = '98' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:23:31
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 98)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 98, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:26:50
+UPDATE `wp_postmeta` SET `meta_value` = '99' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:26:50
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 99)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 99, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:27:18
+UPDATE `wp_postmeta` SET `meta_value` = '100' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:27:18
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 100)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 100, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:27:29
+UPDATE `wp_postmeta` SET `meta_value` = '101' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:27:29
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 101)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 101, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:27:40
+UPDATE `wp_postmeta` SET `meta_value` = '102' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:27:40
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 102)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 102, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:28:03
+UPDATE `wp_postmeta` SET `meta_value` = '103' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:28:03
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 103)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 103, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:28:04
+UPDATE `wp_postmeta` SET `meta_value` = '104' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:28:04
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 104)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 104, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:30:22
+UPDATE `wp_postmeta` SET `meta_value` = '105' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:30:22
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 105)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 105, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:31:29
+UPDATE `wp_postmeta` SET `meta_value` = '106' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:31:29
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 106)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 106, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:31:30
+UPDATE `wp_postmeta` SET `meta_value` = '107' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:31:30
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 107)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 107, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:31:49
+UPDATE `wp_postmeta` SET `meta_value` = '108' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:31:49
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 108)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 108, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:32:06
+UPDATE `wp_postmeta` SET `meta_value` = '109' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:32:06
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 109)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 109, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:32:07
+UPDATE `wp_postmeta` SET `meta_value` = '110' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:32:07
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 110)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 110, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:32:16
+UPDATE `wp_postmeta` SET `meta_value` = '111' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:32:16
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 111)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 111, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:32:17
+UPDATE `wp_postmeta` SET `meta_value` = '112' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:32:17
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 112)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 112, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:32:34
+UPDATE `wp_postmeta` SET `meta_value` = '113' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:32:34
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 113)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 113, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:32:57
+UPDATE `wp_postmeta` SET `meta_value` = '114' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:32:57
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 114)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 114, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:32:58
+UPDATE `wp_postmeta` SET `meta_value` = '115' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:32:58
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 115)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 115, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:33:03
+UPDATE `wp_postmeta` SET `meta_value` = '116' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:33:03
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 116)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 116, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:33:04
+UPDATE `wp_postmeta` SET `meta_value` = '117' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:33:04
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 117)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 117, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:33:16
+UPDATE `wp_postmeta` SET `meta_value` = '118' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:33:16
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 118)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 118, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:33:18
+UPDATE `wp_postmeta` SET `meta_value` = '119' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:33:18
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 119)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 119, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:33:23
+UPDATE `wp_postmeta` SET `meta_value` = '120' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:33:23
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 120)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 120, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:33:46
+UPDATE `wp_postmeta` SET `meta_value` = '121' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:33:46
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 121)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 121, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:33:47
+UPDATE `wp_postmeta` SET `meta_value` = '122' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:33:47
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 122)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 122, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:34:28
+UPDATE `wp_postmeta` SET `meta_value` = '123' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:34:28
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 123)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 123, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:34:33
+UPDATE `wp_postmeta` SET `meta_value` = '124' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:34:33
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 124)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 124, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')
+================log bigin at 2015-12-26 04:34:35
+UPDATE `wp_postmeta` SET `meta_value` = '125' WHERE `post_id` = 895 AND `meta_key` = 'post_views_count'
+================log bigin at 2015-12-26 04:34:35
+	1) E:\htdocs\local.jianzhanseo.com\index.php(17): require('E:\\htdocs\\local...')
+	2) E:\htdocs\local.jianzhanseo.com\wp-blog-header.php(16): require_once('E:\\htdocs\\local...')
+	3) E:\htdocs\local.jianzhanseo.com\wp-includes\template-loader.php(74): include('E:\\htdocs\\local...')
+	4) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\single.php(20): getPostViews(895)
+	5) E:\htdocs\local.jianzhanseo.com\wp-content\themes\dynablue\functions.php(509): update_post_meta(895, 'post_views_coun...', 125)
+	6) E:\htdocs\local.jianzhanseo.com\wp-includes\post.php(1959): update_metadata('post', 895, 'post_views_coun...', 125, '')
+	7) E:\htdocs\local.jianzhanseo.com\wp-includes\meta.php(248): wpdb->update('wp_postmeta', Array, Array)
+	8) E:\htdocs\local.jianzhanseo.com\wp-includes\wp-db.php(1872): wpdb->query('UPDATE `wp_post...')

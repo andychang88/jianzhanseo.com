@@ -486,7 +486,7 @@ function getPostViewsBackUp($postID){
     return $count.'';
 }
 
-function getPostViews($postID) {
+function getPostViews($postID, $readOnly=false) {
 	
 	$doUpdate = true;
 	if(isRobot() || (is_user_logged_in() == true)){
@@ -496,7 +496,7 @@ function getPostViews($postID) {
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);
     
-    if(!$doUpdate){
+    if(!$doUpdate || $readOnly){
     	return (int)$count;
     }
 

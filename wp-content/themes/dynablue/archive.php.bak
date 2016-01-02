@@ -19,7 +19,7 @@
 						</h3>
                     </div>
 					<h4><?php //comments_number('0', '1', '%'); 
-					echo getPostViews(get_the_ID(), true);
+					echo getPostViews(get_the_ID(), true); echo '|'.get_the_ID();
 					?></h4>
                 </div>
 
